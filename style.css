@@ -1,0 +1,94 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #CDEA68; /* Light green background */
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: 1.1em;
+}
+
+label {
+  font-size: 1.1em;
+}
+
+#title {
+  background-color: #3d3d3d; /* Dark grey title background */
+  font-size: 1.75em;
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+}
+
+#blurb {
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+  text-align: center;
+  margin: 1em auto;
+  width: 80%;
+  padding: 1em;
+  border-radius: 5px;
+}
+
+#visual-title {
+  font-weight: bold;
+  font-size: 1.2em;
+  padding-bottom: 0.5em;
+  color: #333333; /* Dark grey text color */
+}
+
+#array-visual {
+  margin: 1em auto;
+}
+
+header {
+  background-color: #ffffff; /* White header background */
+  padding: 1em 0;
+  color: #333333; /* Dark grey header text */
+}
+
+button {
+  margin-top: 1em;
+  background-color: #4caf50; /* Green button background */
+  font-size: 1.1em;
+  color: #ffffff; /* White button text */
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+rect:hover, circle:hover, text.circle:hover, text.rect:hover {
+  cursor: pointer;
+  fill: #8bc34a; /* Light green hover color for SVG elements */
+}
+
+.subtext {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: #666666; /* Grey subtext color */
+}
+
+.svg-container {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.svg-content-responsive {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
